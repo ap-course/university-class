@@ -2,7 +2,7 @@
 
 #include "university.h"
 
-void test_university_class() {
+void TestUniversityClass() {
   University amirkabir("Amirkabir University of Technology");
   std::cout << "University " << amirkabir.name() << " created successfully"
             << std::endl;
@@ -15,7 +15,7 @@ void test_university_class() {
 }
 
 int main() {
-  test_university_class();
+  TestUniversityClass();
 
   return 0;
 }
